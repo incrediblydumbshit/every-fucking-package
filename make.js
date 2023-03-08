@@ -25,12 +25,13 @@ var req = https.request(options, function(res) {
     var foundNewDeps = 0;
     json.rows.forEach(function(package){
       // Ok, really not whole npm
-      if (package.id !== 'whole-npm') {
+      if (package.id !== 'every-fucking-package') {
         if (!currentDependencies[package.id]) {
           foundNewDeps++;
         }
 
         packageJson.dependencies[package.id] = '*';
+        console.log(`Added ${package.id}`);
       }
     });
 
