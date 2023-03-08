@@ -1,11 +1,11 @@
 {
-  "name": "whole-npm",
-  "version": "1.0.2",
+  "name": "every-fucking-package",
+  "version": "1.0.3",
   "scripts": {
     "make": "make.js"
   },
-  "description": "Just whole npm",
-  "author": "Evgeny Shpilevsky",
+  "description": "Every fucking package. Yes, really.",
+  "author": "AAGaming00, Evgeny Shpilevsky",
   "license": "MIT",
   "dependencies": {
     "0": "*",
